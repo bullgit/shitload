@@ -44,6 +44,10 @@ h2 {
 
   a {
     color: $darkGray;
+
+    &:hover {
+      color: $darkGray;
+    }
   }
 }
 
