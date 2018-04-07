@@ -1,0 +1,90 @@
+/* Made with <3 in Germany */
+
+$color__blue: #1393d5;
+
+$color__gray: #aaa;
+$color__gray-dark: #888;
+$color__gray-light: #ccc;
+
+$typeface__default: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Symbol";
+$tinyText: 9pt;
+$smallText: 12pt;
+$text: 16pt;
+$largeText: 21pt;
+$hugeText: 37pt;
+
+body {
+  margin: 4%;
+  padding: 0;
+  color: #000;
+  font-family: $typeface__default;
+  font-size: 16px;
+  text-align: center;
+  background: #fff
+}
+
+h1 {
+  margin: 0 0 20px 0;
+  font-size: 2em
+}
+
+h2 {
+  margin: 0;
+  color: $color__gray-dark;
+  font-size: 1.5em;
+
+  span {
+    color: $color__gray;
+    text-decoration: line-through
+  }
+
+  a {
+    color: $color__gray-dark;
+
+    &:hover {
+      color: $color__gray-dark
+    }
+  }
+}
+
+section {
+  margin: 60px 0 60px 0;
+
+  hr {
+    width: 50%;
+    height: 1px;
+    background: linear-gradient(to right, rgba(255,255,255,0) 0%, $color__gray 50%, rgba(255,255,255,0) 100%);
+    background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%, $color__gray 50%, rgba(255,255,255,0) 100%);
+    background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, $color__gray 50%, rgba(255,255,255,0) 100%);
+    background: -ms-linear-gradient(left, rgba(255,255,255,0) 0%, $color__gray 50%, rgba(255,255,255,0) 100%);
+    background: -o-linear-gradient(left, rgba(255,255,255,0) 0%, $color__gray 50%, rgba(255,255,255,0) 100%);
+    border: none
+  }
+
+  p {
+    color: $color__gray-dark;
+    font-size: .75em
+  }
+}
+
+a {
+  color: $color__blue;
+  text-decoration: none;
+
+  &:hover {
+    color: #000
+  }
+}
+
+.p-copyright {
+  color: $color__gray;
+  font-size: .75em;
+
+  a {
+    color: $color__gray;
+
+    &:hover {
+      color: $color__gray-dark
+    }
+  }
+}
