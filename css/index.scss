@@ -7,11 +7,6 @@ $color__gray-dark: #888;
 $color__gray-light: #ccc;
 
 $typeface__default: -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Symbol";
-$tinyText: 9pt;
-$smallText: 12pt;
-$text: 16pt;
-$largeText: 21pt;
-$hugeText: 37pt;
 
 body {
   margin: 4%;
@@ -24,7 +19,7 @@ body {
 }
 
 h1 {
-  margin: 0 0 20px 0;
+  margin: 0 0 6px 0;
   font-size: 2em
 }
 
