@@ -36,3 +36,5 @@ The work is provided as is, without warranty or support, express or implied. The
 #### 4. FREEDOM OF CHOICE
 
 If this license doesn't apply to your needs, you can republish the work under the license of your choice, but with limited warranty from the author(s).
+
+Tim: is a test of one bug
